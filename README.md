@@ -27,8 +27,8 @@ Predict on test data, plot actual vs. predicted prices.
 
 ## PROGRAM
 
-### Name: HAREVASU S
-### Register Number: 212223230069
+### Name: NISHA D
+### Register Number: 212223230143
 
 ```python
 import numpy as np
@@ -141,8 +141,6 @@ with torch.no_grad():
 
 predicted_prices = scaler.inverse_transform(predicted)
 actual_prices = scaler.inverse_transform(actual)
-print("Name: HAREVASU S")
-print("Register Number: 212223230069")
 plt.figure(figsize=(10, 6))
 plt.plot(actual_prices, label='Actual Price')
 plt.plot(predicted_prices, label='Predicted Price')
@@ -152,8 +150,8 @@ plt.title('Stock Price Prediction using RNN')
 plt.legend()
 plt.show()
 
-print("Name: HAREVASU S")
-print("Register Number: 212223230069")
+print("Name: NISHA D")
+print("Register Number: 212223230143")
 print(f'Predicted Price: {predicted_prices[-1]}')
 print(f'Actual Price: {actual_prices[-1]}')
 ```
