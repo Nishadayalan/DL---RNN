@@ -148,23 +148,29 @@ plt.title('Stock Price Prediction using RNN')
 plt.legend()
 plt.show()
 
-print("Name: NISHA D")
-print("Register Number: 212223230143")
 print(f'Predicted Price: {predicted_prices[-1]}')
 print(f'Actual Price: {actual_prices[-1]}')
+
+print("Name: NISHA D")
+print("Register Number: 212223230143")
 ```
 
 
 
 ### OUTPUT
 ## Training Loss Over Epochs Plot
-![image](https://github.com/user-attachments/assets/82b1632d-6c6b-4baa-a0ef-d7dbcaa28349)
+
+![image](https://github.com/user-attachments/assets/de30a63d-5352-4ffb-acae-22991e244802)
 
 ## True Stock Price, Predicted Stock Price vs time
- ![image](https://github.com/user-attachments/assets/2eefd17d-50f5-4fbf-8aab-a2c9603dc53f)
+
+![image](https://github.com/user-attachments/assets/49fd7967-2e21-4c59-a957-c7ba183b0c29)
+
 
 ### Predictions
- ![image](https://github.com/user-attachments/assets/9fd757b7-b75b-420b-ba41-09df39a4e7ed)
+
+![image](https://github.com/user-attachments/assets/87fd9aa2-6e12-4d0b-b9bb-f64170ef3b88)
+
 
 ## RESULT
 Thus, a Recurrent Neural Network (RNN) model for predicting stock prices using historical closing price data has been developed successfully.
